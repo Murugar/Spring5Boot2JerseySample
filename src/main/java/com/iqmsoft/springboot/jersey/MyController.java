@@ -11,7 +11,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlAccessorType(XmlAccessType.NONE)
 @XmlRootElement(name = "objects")
-@Path("/objects")
+@Path("/")
 public class MyController {
 
 	@GET
